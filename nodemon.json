@@ -1,0 +1,18 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules", "dist"],
+  "verbose": true,
+  "execMap": {
+    "js": "node"
+  },
+
+  "runOnChangeOnly": false,
+  "watch": ["src/**/*.js", "src/**/*.graphql", "src/**/*.gql"],
+  "env": {
+    "NODE_ENV": "development",
+    "MONGO_USER": "lucasm08",
+    "MONGO_PASSWORD": "qX5x1GQanWOe8mJk",
+    "MONGO_DB": "events-react-dev"
+  },
+  "ext": "js,json,graphql"
+}
